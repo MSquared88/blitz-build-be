@@ -22,7 +22,7 @@ const checkJwt = jwt({
    * 
    * */
   audience: process.env.AUDIENCE,
-  issuer: `https://gannondarcy2.auth0.com/`,
+  issuer: `https://matthew-meeves.auth0.com/`,
   algorithms: ["RS256"],
 
 });
